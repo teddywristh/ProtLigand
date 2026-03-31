@@ -1,0 +1,85 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Environments (Venv) ---
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+# Nếu bạn muốn giữ lại output của notebook thì comment dòng dưới
+*.ipynb
+
+# --- IDEs (VS Code, PyCharm, Spyder) ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
+
+# --- Bioinformatics & Chemistry specific ---
+# Loại bỏ các file tạm từ PyMOL hoặc RDKit nếu có
+*.log
+*.pml
+*.pse.bak
+# Lưu ý: Nếu bạn có file .pdb lớn, cân nhắc nén hoặc dùng LFS
+# *.pdb 
+
+# --- LaTeX (Cho báo cáo nghiên cứu) ---
+*.aux
+*.fdb_latexmk
+*.fls
+*.gz
+*.pdf
+*.toc
+*.blg
+*.bbl
+*.log
+*.out
+*.nav
+*.snm
+
+# --- OS Specific ---
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+
+# --- Data & Logs ---
+*.log
+logs/
+*.csv
+*.tsv
+# Loại bỏ các folder chứa database cục bộ nếu có
+data/raw/
+data/processed/
